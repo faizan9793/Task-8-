@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sacked Newton - Food Ordering Website</title>
+  <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+<!-- Header -->    
+  <header>
+    <div>
+        <h1>Sacked Newton</h1>
+    </div>
+    <span id="menu-icon" class="menu-toggle">&#9776;</span>
+    <nav id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#menu">Menu</a></li>
+    </nav> 
+  </header> 
+
+<!-- Main -->   
+<main>
+<!-- Home Section -->
+<section class="banner" id="home">
+  <div class="overlay">
+    <img src="logo.png" alt="Sacked Newton Logo" class="logo">
+    <p class="tagline">Fresh and Delicious Food Delivered to Your Doorstep</p>
+    <input type="text" placeholder="Search for food" class="search-box">
+  </div>
+</section>
+
+
+<!-- About Section -->
+<section class="about-section" id="about">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="Img.png" alt="Delicious Food">
+    </div>
+    <div class="about-content" id="menu">
+      <h1>About Sacked Newton</h1>
+      <p>
+        At Sacked Newton, we are passionate about bringing fresh, delicious, and mouth-watering meals right to your doorstep. 
+        Our chefs use only the finest ingredients to craft dishes that will satisfy your cravings and delight your taste buds.
+      </p>
+      <p>
+        Whether you’re in the mood for a cheesy pizza, a juicy burger, or a creamy pasta dish—we've got you covered! 
+        Explore our menu and enjoy food made with love, delivered fast and fresh.
+      </p>
+      <a href="#menu" class="about-btn">Explore Menu</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Blog Section -->
+<section class="blog-section" id="blogs">
+  <h1>Latest Food Blogs</h1>
+  <div class="blog-container">
+      <!-- Blog 1 -->
+      <div class="blog-card">
+          <img src="Pizza.png" alt="Pizza">
+          <div class="blog-content">
+              <h3>The Secret to a Perfect Pizza</h3>
+              <p>Discover the best ingredients and techniques to make a delicious pizza at home!</p>
+              <a href="#" class="blog-btn">Read More</a>
+          </div>
+      </div>
+      <!-- Blog 2 -->
+      <div class="blog-card">
+          <img src="Burger.png" alt="Burger">
+          <div class="blog-content">
+              <h3>Top Five Burgers You Must Try</h3>
+              <p>Explore the most mouth-watering burgers and find out what makes them special.</p>
+              <a href="#" class="blog-btn">Read More</a>
+          </div>
+      </div>
+      <!-- Blog 3 -->
+      <div class="blog-card">
+          <img src="Pasta.png" alt="Pasta" >
+          <div class="blog-content">
+              <h3>Homemade Pasta: A Chef’s Guide</h3>
+              <p>Learn how to create the perfect pasta dish with simple and fresh ingredients.</p>
+              <a href="#" class="blog-btn">Read More</a>
+          </div>
+      </div>
+  </div>       
+</section>
+
+<!-- Card Section -->
+  <section class="card-section">
+      <h1>Our Special Dishes</h1>
+      <div class="card-container">
+      <!-- Card 1 -->
+          <div class="card">
+              <img src="Pizza.png" alt="Pizza">
+              <div class="card-content">
+                  <h3>Delicious Pizza</h3>
+                  <p>Hot, cheesy, and full of flavor.</p>
+                  <span class="price">$9.99</span>
+                  <button class="buy-btn">Buy Now</button>
+              </div>
+          </div>
+      <!-- Card 2 -->
+          <div class="card">
+              <img src="Burger.png" alt="Burger">
+              <div class="card-content">
+                  <h3>Juicy Burger</h3>
+                  <p>A perfect blend of taste & crunch.</p>
+                  <span class="price">$7.99</span>
+                  <button class="buy-btn">Buy Now</button>
+              </div>
+          </div>
+      <!-- Card 3 -->
+          <div class="card">
+              <img src="Pasta.png" alt="Pasta">
+              <div class="card-content">
+                  <h3>Creamy Pasta</h3>
+                  <p>Rich, creamy, and full of flavor.</p>
+                  <span class="price">$8.49</span>
+                  <button class="buy-btn">Buy Now</button>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <!-- Reviews Section -->
+<section class="review-section" id="reviews">
+  <h1>What Our Customers Say</h1>
+  <div class="review-container">
+    <!-- Review 1 -->
+    <div class="review-card">
+      <img src="Pic1.png" alt="Customer 1">
+      <h3>John Doe</h3>
+      <p>"Absolutely love the pizza! Super quick delivery and the taste is amazing."</p>
+    </div>
+    <!-- Review 2 -->
+    <div class="review-card">
+      <img src="Pic2.png" alt="Customer 2">
+      <h3>Sarah Lee</h3>
+      <p>"Fresh ingredients and delicious meals every time. Highly recommended!"</p>
+    </div>
+    <!-- Review 3 -->
+    <div class="review-card">
+      <img src="Pic3.png" alt="Customer 3">
+      <h3>Mohit Sharma</h3>
+      <p>"Customer service is top-notch and food quality is consistent. Loved it!"</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- Footer Section with -->
+<footer id="contact">
+  <div class="footer-container">
+    <div class="footer-info">
+      <h2>Sacked Newton</h2>
+      <p>Delicious food delivered with love and care.</p>
+      <p>Email: info@sackednewton.com</p>
+      <p>Phone: +123-456-7890</p>
+    </div>
+    <div class="footer-form">
+      <h3>Contact Us</h3>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+        <p class="form-msg" id="formMessage"></p>
+      </form>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
